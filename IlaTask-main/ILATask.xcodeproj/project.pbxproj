@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F214F4D28FB21F000EBDC74 /* CollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F214F4C28FB21F000EBDC74 /* CollectionTableViewCell.swift */; };
+		7DE40CD028F86AF30070A10B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE40CCF28F86AF30070A10B /* AppDelegate.swift */; };
+		7DE40CD428F86AF30070A10B /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE40CD328F86AF30070A10B /* ListViewController.swift */; };
+		7DE40CD728F86AF30070A10B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DE40CD528F86AF30070A10B /* Main.storyboard */; };
+		7DE40CD928F86AF50070A10B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DE40CD828F86AF50070A10B /* Assets.xcassets */; };
+		7DE40CDC28F86AF50070A10B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DE40CDA28F86AF50070A10B /* LaunchScreen.storyboard */; };
+		7DE40CF528F86C670070A10B /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE40CF428F86C670070A10B /* ListTableViewCell.swift */; };
+		7DE40CF728F874A80070A10B /* ListTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE40CF628F874A80070A10B /* ListTableViewDelegate.swift */; };
+		7DE40CFD28F875030070A10B /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE40CFC28F875030070A10B /* ListViewModel.swift */; };
+		7DE40CFF28F875270070A10B /* ListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE40CFE28F875270070A10B /* ListPresenter.swift */; };
+		7DE40D0128F875360070A10B /* ListPresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE40D0028F875360070A10B /* ListPresenterInterface.swift */; };
+		7DE40D0328F8754B0070A10B /* ListPresenterRequestInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE40D0228F8754B0070A10B /* ListPresenterRequestInterface.swift */; };
+		7DE40D0528F8755C0070A10B /* ListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE40D0428F8755B0070A10B /* ListRepository.swift */; };
+		7DE40D0728F875690070A10B /* ListRepositoryInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE40D0628F875690070A10B /* ListRepositoryInterface.swift */; };
+		7DE40D0F28F9167E0070A10B /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE40D0E28F9167E0070A10B /* CollectionViewCell.swift */; };
+		7DE40D1328F92E1E0070A10B /* TableViewHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE40D1228F92E1E0070A10B /* TableViewHeaderCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F214F4C28FB21F000EBDC74 /* CollectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTableViewCell.swift; sourceTree = "<group>"; };
+		7DE40CCC28F86AF30070A10B /* ILATask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ILATask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DE40CCF28F86AF30070A10B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7DE40CD328F86AF30070A10B /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		7DE40CD628F86AF30070A10B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DE40CD828F86AF50070A10B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DE40CDB28F86AF50070A10B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7DE40CDD28F86AF50070A10B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DE40CF428F86C670070A10B /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		7DE40CF628F874A80070A10B /* ListTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewDelegate.swift; sourceTree = "<group>"; };
+		7DE40CFC28F875030070A10B /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		7DE40CFE28F875270070A10B /* ListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPresenter.swift; sourceTree = "<group>"; };
+		7DE40D0028F875360070A10B /* ListPresenterInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPresenterInterface.swift; sourceTree = "<group>"; };
+		7DE40D0228F8754B0070A10B /* ListPresenterRequestInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPresenterRequestInterface.swift; sourceTree = "<group>"; };
+		7DE40D0428F8755B0070A10B /* ListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRepository.swift; sourceTree = "<group>"; };
+		7DE40D0628F875690070A10B /* ListRepositoryInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRepositoryInterface.swift; sourceTree = "<group>"; };
+		7DE40D0E28F9167E0070A10B /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		7DE40D1228F92E1E0070A10B /* TableViewHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHeaderCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DE40CC928F86AF30070A10B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F214F4E28FCC00500EBDC74 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7DE40CF628F874A80070A10B /* ListTableViewDelegate.swift */,
+				7DE40CF428F86C670070A10B /* ListTableViewCell.swift */,
+				7DE40D0E28F9167E0070A10B /* CollectionViewCell.swift */,
+				7DE40D1228F92E1E0070A10B /* TableViewHeaderCell.swift */,
+				5F214F4C28FB21F000EBDC74 /* CollectionTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		5F214F4F28FCC07E00EBDC74 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7DE40CD328F86AF30070A10B /* ListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7DE40CC328F86AF20070A10B = {
+			isa = PBXGroup;
+			children = (
+				7DE40CCE28F86AF30070A10B /* ILATask */,
+				7DE40CCD28F86AF30070A10B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DE40CCD28F86AF30070A10B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DE40CCC28F86AF30070A10B /* ILATask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DE40CCE28F86AF30070A10B /* ILATask */ = {
+			isa = PBXGroup;
+			children = (
+				7DE40CCF28F86AF30070A10B /* AppDelegate.swift */,
+				7DE40D0B28F875BB0070A10B /* View */,
+				7DE40D0A28F875AD0070A10B /* Model */,
+				7DE40D0928F8759F0070A10B /* Presenter */,
+				7DE40D0828F875840070A10B /* Repository */,
+				7DE40CD528F86AF30070A10B /* Main.storyboard */,
+				7DE40CD828F86AF50070A10B /* Assets.xcassets */,
+				7DE40CDA28F86AF50070A10B /* LaunchScreen.storyboard */,
+				7DE40CDD28F86AF50070A10B /* Info.plist */,
+			);
+			path = ILATask;
+			sourceTree = "<group>";
+		};
+		7DE40D0828F875840070A10B /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				7DE40D0428F8755B0070A10B /* ListRepository.swift */,
+				7DE40D0628F875690070A10B /* ListRepositoryInterface.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		7DE40D0928F8759F0070A10B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7DE40CFE28F875270070A10B /* ListPresenter.swift */,
+				7DE40D0028F875360070A10B /* ListPresenterInterface.swift */,
+				7DE40D0228F8754B0070A10B /* ListPresenterRequestInterface.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7DE40D0A28F875AD0070A10B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7DE40CFC28F875030070A10B /* ListViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7DE40D0B28F875BB0070A10B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5F214F4F28FCC07E00EBDC74 /* Controller */,
+				5F214F4E28FCC00500EBDC74 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DE40CCB28F86AF30070A10B /* ILATask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DE40CE028F86AF50070A10B /* Build configuration list for PBXNativeTarget "ILATask" */;
+			buildPhases = (
+				7DE40CC828F86AF30070A10B /* Sources */,
+				7DE40CC928F86AF30070A10B /* Frameworks */,
+				7DE40CCA28F86AF30070A10B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ILATask;
+			productName = ILATask;
+			productReference = 7DE40CCC28F86AF30070A10B /* ILATask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DE40CC428F86AF20070A10B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					7DE40CCB28F86AF30070A10B = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 7DE40CC728F86AF20070A10B /* Build configuration list for PBXProject "ILATask" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DE40CC328F86AF20070A10B;
+			productRefGroup = 7DE40CCD28F86AF30070A10B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DE40CCB28F86AF30070A10B /* ILATask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DE40CCA28F86AF30070A10B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DE40CDC28F86AF50070A10B /* LaunchScreen.storyboard in Resources */,
+				7DE40CD928F86AF50070A10B /* Assets.xcassets in Resources */,
+				7DE40CD728F86AF30070A10B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DE40CC828F86AF30070A10B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DE40CF728F874A80070A10B /* ListTableViewDelegate.swift in Sources */,
+				7DE40D0128F875360070A10B /* ListPresenterInterface.swift in Sources */,
+				7DE40D0728F875690070A10B /* ListRepositoryInterface.swift in Sources */,
+				7DE40CD428F86AF30070A10B /* ListViewController.swift in Sources */,
+				7DE40CD028F86AF30070A10B /* AppDelegate.swift in Sources */,
+				7DE40CFD28F875030070A10B /* ListViewModel.swift in Sources */,
+				7DE40CFF28F875270070A10B /* ListPresenter.swift in Sources */,
+				7DE40D0F28F9167E0070A10B /* CollectionViewCell.swift in Sources */,
+				7DE40D0328F8754B0070A10B /* ListPresenterRequestInterface.swift in Sources */,
+				5F214F4D28FB21F000EBDC74 /* CollectionTableViewCell.swift in Sources */,
+				7DE40D1328F92E1E0070A10B /* TableViewHeaderCell.swift in Sources */,
+				7DE40D0528F8755C0070A10B /* ListRepository.swift in Sources */,
+				7DE40CF528F86C670070A10B /* ListTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7DE40CD528F86AF30070A10B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DE40CD628F86AF30070A10B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DE40CDA28F86AF50070A10B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DE40CDB28F86AF50070A10B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DE40CDE28F86AF50070A10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7DE40CDF28F86AF50070A10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DE40CE128F86AF50070A10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ILATask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.application.ILATask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DE40CE228F86AF50070A10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ILATask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.application.ILATask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DE40CC728F86AF20070A10B /* Build configuration list for PBXProject "ILATask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DE40CDE28F86AF50070A10B /* Debug */,
+				7DE40CDF28F86AF50070A10B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DE40CE028F86AF50070A10B /* Build configuration list for PBXNativeTarget "ILATask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DE40CE128F86AF50070A10B /* Debug */,
+				7DE40CE228F86AF50070A10B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DE40CC428F86AF20070A10B /* Project object */;
+}
